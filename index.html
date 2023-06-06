@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/65f0b502a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                       <a href="#about">About</a>
+                    </li>  
+                    <li>
+                       <a href="#experience">Experience</a>
+                    </li>  
+                    <li>
+                       <a href="#projects">Projects</a>
+                    </li>   
+                    <li>
+                       <a href="#contact">Contact</a>
+                    </li>
+                   </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm Rohan Tipnis</h1>
+                <p>$ <span id="typing"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/assets/about.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am a passionate software developer currently pursuing my Masters in Computer Science from the University of Texas at Arlington.<br> 
+                        I love learning new technologies and building projects. <br>I am also a passionate gamer and intrested in game development.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                       <div class="skill-grid">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"/>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />  
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original-wordmark.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" />
+                            <i class="devicon-flask-original" style="font-size: 75px;"></i>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+                       </div>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Current</span>
+                                <br>Masters of Science in Computer Science, 
+                                <br>The University of Texas at Arlington</li>
+                            <li><span>2014 - 2019</span>
+                                <br>Bachelors in Electronics and Telecommunications Engineering
+                                <br>Lokmanya Tilak College Of Engineering</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <!-- EXPERIENCE SECTION -->
+    <div id="experience">
+        <div class="container">
+            <h1 class="sub-title">Experience</h1>
+            <div class="experience-list">
+                <div>
+                    <h4>Graduate Teaching Assistant (Intro to Prob & Stats Course)</h4>
+                    <h3>The University of Texas at Arlington</h3>
+                    <ul>
+                        <li>Worked with the professor to manage the classroom</li>
+                        <li>Assessing students' academic performance</li>
+                        <li>Grading labs, homework, projects and mid terms.</li>
+                        <li>Entering student grades in University database.</li>
+                    </ul>
+                    <p>(Jan 2023 - May 2023)</p>
+                </div>
+                <div>
+                    <h4>Graduate Research Assistant</h4>
+                    <h3>The University of Texas at Arlington</h3>
+                    <ul>
+                        <li>Wrote programs to interface and collect data from various bio-medical sensors such as MUSE(EEG) and ECG using Python.</li>
+                        <li>Developed client server services for working with various robotic components using Python, C++ and Robot Operating System.</li>
+                        <li>Organized and coordinated an International Conference called PErvasive Technologies Related to Assistive Environments (PETRA).</li>
+                    </ul>
+                    <p>(Apr 2022 - Aug 2022)</p>
+                </div>
+                <div>
+                    <h4>Software Developer</h4>
+                    <h3>Maharashtra Knowledge Corporation Ltd</h3>
+                    <ul>
+                        <li>Developed functional user interfaces for web applications using HTML, CSS, Vue and Angular.js which had a user base of 25k users on daily basis.
+                        </li>
+                        <li>Wrote server side code and designed APIs following a micro-service architecture to facilitate functionalities like login, user authentication, workflow management etc.</li>
+                        <li>Redesigned the AJAX based bidding system, scaling the count of maximum real-time supported users from 300 to 1 million using
+                            Go and Gorilla-websockets.</li>
+                    </ul>
+                    <p>(Aug 2019 - May 2021)</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECTS SECTION -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <p>Projects include Academic projects and Personal projects</p>
+            <div class="project-list">
+                <div class="project">
+                    <img src="assets/Pong.png">
+                    <div class="layer">
+                        <h3>PONG</h3>
+                        <p>Recreated the classic game Pong in C++ using the Raylib library.</p>
+                        <a href="https://github.com/AdmiralStone/Pong"><i class="fa-brands fa-github-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="assets/Breakout.png">
+                    <div class="layer">
+                        <h3>BREAKOUT</h3>
+                        <p>Recreated the classic Atari game Breakout using modern C++ and Raylib</p>
+                        <a href="https://github.com/AdmiralStone/Breakout-Game"><i class="fa-brands fa-github-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="assets/Chip-8.png">
+                    <div class="layer">
+                        <h3>CHIP-8 EMULATOR</h3>
+                        <p>Low-level emulator written in C++ to load the binary opcodes of Chip-8 ROMs, disassemble and decode them into hexadecimal values for execution.</p>
+                        <!-- <a href="#"><i class="fa-brands fa-github-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="assets/Spendy.png">
+                    <div class="layer">
+                        <h3>Spendy</h3>
+                        <p>An Expense tracking app developed using Kotlin in Android Studio as a capstone project for the CSE5324 - Software Engineering I course.</p>
+                        <a href="https://github.com/AdmiralStone/Spendy"><i class="fa-brands fa-github-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/AdmiralStone?tab=repositories" class="btn">See More <i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-phone"></i> +1 682-5568232</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/AdmiralStone"><i class="fab fa-github fa-3x"></i></a>
+                        <a href="https://www.linkedin.com/in/rohan-tipnis/"><i class="fab fa-linkedin fa-3x"></i></a>
+                        <a href="mailto:tipnis.rohanj@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>                    
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>2023 Copyright © Rohan Tipnis. All rights reserved.</p>
+    </div>
+</body>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+
+    const texts = ["A Software Developer", "An Engineer", "A Gamer"]; // Array of text strings
+    const delay = 2000; // Delay between animations (in milliseconds)
+    let textIndex = 0; // Index of the current text string
+    let charIndex = 0; // Index of the current character in the text string
+    let isTyping = true; // Flag to indicate if the typing animation is in progress
+
+    function type() {
+    if (!isTyping) {
+        return; // Stop typing if the animation is paused
+    }
+
+    const typingText = document.getElementById("typing");
+    const text = texts[textIndex];
+
+    typingText.textContent += text[charIndex];
+    charIndex++;
+
+    if (charIndex >= text.length) {
+        // Start erasing the text after a delay
+        setTimeout(() => {
+        isTyping = false; // Pause the typing animation
+        erase();
+        }, delay);
+    } else {
+        setTimeout(type, 100); // Type the next character after a short delay
+    }
+    }
+
+    function erase() {
+    const typingText = document.getElementById("typing");
+    const text = texts[textIndex];
+
+    // Remove the last character from the text
+    typingText.textContent = text.substring(0, charIndex - 1);
+    charIndex--;
+
+    if (charIndex <= 0) {
+        // Start typing the next text string after a delay
+        setTimeout(() => {
+        isTyping = true; // Resume the typing animation
+        textIndex++;
+        if (textIndex >= texts.length) {
+            textIndex = 0;
+        }
+        type();
+        }, delay / 2);
+    } else {
+        setTimeout(erase, 50); // Erase the next character after a short delay
+    }
+    }
+
+    type(); // Start the typing animation
+
+    function openTab(tabName){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab")
+
+        
+    }
+</script>
+
+</html>
