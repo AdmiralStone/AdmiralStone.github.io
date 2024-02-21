@@ -1,5 +1,5 @@
 {
-    "image":"assets/chess.gif",
+    "image":"assets/Chess.gif",
     "about":"This is a classic Player vs Player (PvP) chess game.",
     "timeFrame":"3 Weeks",
     "engine":"Raylib(C++)",
