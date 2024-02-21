@@ -1,0 +1,27 @@
+{
+    "image":"assets/chess.gif",
+    "about":"This is a classic Player vs Player (PvP) chess game.",
+    "timeFrame":"3 Weeks",
+    "engine":"Raylib(C++)",
+    "projectGoals":[
+        "Accurately represent standard Chess Pieces.",
+        "Enforce all standard chess rules.",
+        "Develop a move validation system."
+    ],
+    "projectFeatures":[
+        "The project supports a Player vs Player (PvP) mode.",
+        "Valid moves are highlighted upon selecting piece.",
+        "Last move of either player is highlighted.",
+        "Game can be restarted using the 'SPACE' key."
+    ],
+    "description":"This project represents a classic Player vs Player (PvP) chess game developed in C++ leveraging the Raylib library. The primary objective driving this endeavor was to deepen my understanding of object-oriented programming (OOP) concepts within the C++ environment. Built with a focus on implementing all chess pieces and rules, players can enjoy authentic matches with intuitive drag and drop movement functionality. To aid decision-making, players receive valid moves and benefit from visual highlighting of the last move made, enhancing gameplay clarity. ",
+    "learnings":"Throughout the development process, I delved into various aspects such as classes, objects, and the nuances between shallow and deep copying, among other fundamental concepts. This project provided me with invaluable insights into diverse object-oriented principles, including inheritance, runtime and compile-time polymorphism. One notable challenge I encountered was implementing a crucial feature: assessing whether a particular move would subject the player to a checkmate, thereby rendering it invalid. Through rigorous exploration and research, I gained a comprehensive understanding of the distinctions between shallow and deep copying, which proved instrumental in successfully implementing this feature.",
+    "futurescope":[
+        "Implement Casteling",
+        "Implement En Passant",
+        "Add AI for Single Player Mode"
+
+    ],
+    "githublink":"https://github.com/AdmiralStone/ChessEngine"
+
+}

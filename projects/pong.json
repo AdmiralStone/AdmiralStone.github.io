@@ -1,0 +1,23 @@
+{
+    "image":"assets/Pong.gif",
+    "about":"A recreation of the classic arcade Pong game released in 1972.",
+    "timeFrame":"4 Days",
+    "engine":"Unity(C#)",
+    "projectGoals":[
+        "Create an arena with two walls and a divider.",
+        "Add a paddle on either end of the play field.",
+        "Add a ball that moves around the playfield and bounces off of the paddles and walls."
+    ],
+    "projectFeatures":[
+        "Each player controls either the left(W,S) or right paddle (Up,Down)",
+        "Player scoring logic and tracking implemented",
+        "Game can be restarted using the 'R' key."
+    ],
+    "description":"This project is part of the 20 Game Challenge (https://20_games_challenge.gitlab.io/challenge/). The game features a PvP mode. Each player controls a paddle on either end of the screen. The Left paddle can be controlled by W,S keys while the Right paddle is controlled by Up, Down arrow. A player scores a point if the opponent misses to hit the ball and it hits the wall behind his paddle. Once a player scores the ball is positioned at the middle of the screen and the game is restarted. The game can also be manualy restarted by pressing the 'R' key.",
+    "learnings":"I got a basic understanding about the Unity Engine by doing the project. I used the Scene Manager to transition from the Menu scene to the Game Scene. I learned how various UI elements such as buttons can be added and used in the Engine.",
+    "futurescope":[
+        "Add AI for Single Player Mode"
+    ],
+    "githublink":"https://github.com/AdmiralStone/Pong-Unity"
+
+}

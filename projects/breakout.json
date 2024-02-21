@@ -1,0 +1,21 @@
+{
+    "image":"assets/Breakout.png",
+    "about":"A simple recreation of the classic arcade game Breakout",
+    "timeFrame":"2 Days",
+    "engine":"Raylib(C++)",
+    "projectGoals":[
+        "Create an arena with few layers of bricks on top",
+        "Add a paddle at the bottom of the arena.",
+        "Add a ball that moves and bounces off the paddle, breaks the bricks on impact"
+    ],
+    "projectFeatures":[
+        "Player can control the paddle and move it horizontally.",
+        "Bricks are broken on impact with the ball",
+        "Game can be paused and restarted."
+    ],
+    "description":"The objective of the game is to destroy all the bricks using a bouncing ball and a paddle. The ball bounces off the walls and the paddle. Use the left and right arrow keys to move the paddle horizontally and prevent the ball from falling off the bottom of the screen.",
+    "learnings":"",
+    "futurescope":[],
+    "githublink":"https://github.com/AdmiralStone/Breakout-Game"
+
+}

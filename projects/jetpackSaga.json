@@ -1,0 +1,24 @@
+{
+    "image": "assets/JetPack_Saga.gif",
+    "about": "A simple Unity game inspired by Jetpack Joyride.",
+    "timeFrame": "1 Week",
+    "engine": "Unity (C#)",
+    "projectGoals": [
+        "Create a game world with a floor. The world will scroll from left to right endlessly.",
+        "Add a player character that falls when no input is held, but rises when the input is held.",
+        "Add obstacles that move from left to right."
+    ],
+    "projectFeatures": [
+        "Player control with spacebar key.",
+        "Coin collection and scoring system.",
+        "Obstacle avoidance to prevent game over.",
+        "High score tracking."
+    ],
+    "description": "This project is a basic clone of the popular mobile game Jetpack Joyride and is my second game from the 20 game challenge. It allows players to control a character navigating through obstacles while collecting coins to increase their score. The game features simple graphics and mechanics, providing an enjoyable gaming experience.",
+    "learnings": "Developing this project provided valuable experience in Unity game development, including player control, collision detection, scoring systems, and UI implementation. I also learned how to add and control background music and triggered audio using Audio Source and Audio Clips.",
+    "futurescope": [
+        "Implement additional power-ups or obstacles for more varied gameplay.",
+        "Improve visual assets and animations."
+    ],
+    "githublink": "https://github.com/AdmiralStone/JetPack-Saga"
+}
